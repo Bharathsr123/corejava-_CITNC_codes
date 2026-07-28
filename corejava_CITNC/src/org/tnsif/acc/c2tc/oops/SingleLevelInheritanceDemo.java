@@ -1,18 +1,23 @@
 package org.tnsif.acc.c2tc.oops;
+
+//parent class
 class Course
 {
-	String courseName="Java Programming";
+	String courseName="Java Programmming"; //instance var
+	
 	void showCourse()
 	{
-		System.out.println("Course:"+courseName);
+		System.out.println("Course :"+courseName);
 	}
 }
-class Student extends Course
+//sub class
+class Student extends Course 
 {
-	String name="BHARATH";
+	String name="Ali";
+	
 	void showStudent()
 	{
-		System.out.println("Student:"+name);
+		System.out.println("Student : "+name);
 	}
 }
 public class SingleLevelInheritanceDemo {
@@ -21,5 +26,8 @@ public class SingleLevelInheritanceDemo {
 		Student student=new Student();
 		student.showCourse();
 		student.showStudent();
+		
+
 	}
+
 }
