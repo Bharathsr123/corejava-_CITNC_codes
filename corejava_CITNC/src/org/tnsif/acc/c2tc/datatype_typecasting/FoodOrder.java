@@ -1,14 +1,11 @@
 package org.tnsif.acc.c2tc.datatype_typecasting;
-
 public class FoodOrder {
-
 	public static void main(String[] args) {
 		int orderId = 101;
 		double price = 299.99;
 		boolean isDelivered = false;
 		char rating = 'A';
 		float deliveryDistance=5.3f;
-		long deliveryBoyPhone=9738438174L;
 		byte deliverTime=45;
 		short restaurantId=12;
 		String CusomerName="Anjali";
@@ -27,7 +24,5 @@ public class FoodOrder {
 		System.out.println("Expected Time:"+deliverTime);
 		System.out.println("Delivery Status:"+isDelivered);
 		System.out.println("Rating:"+ rating);	
-
 	}
-
 }
