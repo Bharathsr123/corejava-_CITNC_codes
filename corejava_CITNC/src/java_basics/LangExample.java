@@ -1,4 +1,4 @@
-package corejava_CITNC;
+package java_basics;
 
 public class LangExample {
 

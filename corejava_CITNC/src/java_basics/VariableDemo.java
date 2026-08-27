@@ -1,4 +1,4 @@
-package corejava_CITNC;
+package java_basics;
 
 public class VariableDemo {
 	int price=10;
