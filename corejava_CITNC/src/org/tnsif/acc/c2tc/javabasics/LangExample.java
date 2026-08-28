@@ -1,4 +1,4 @@
-package java_basics;
+package org.tnsif.acc.c2tc.javabasics;
 
 public class LangExample {
 
