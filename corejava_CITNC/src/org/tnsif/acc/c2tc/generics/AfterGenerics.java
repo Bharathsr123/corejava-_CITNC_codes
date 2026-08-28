@@ -1,0 +1,14 @@
+package org.tnsif.acc.c2tc.generics;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AfterGenerics {
+
+	public static void main(String[] args) {
+		List<Double> list1 = new ArrayList<>();
+        // Use add() for a single item and remove quotes to pass a numeric Double
+		list1.add(23.2); 
+	}
+
+}
